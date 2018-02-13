@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <form action="/action/" method="post">
+            {% csrf_token %}
+            Model <input type="text" name="model">
+            Email <input type="email" name="email">
+            <input type="submit" value="Search">
+        </form>
+        <p style="color: red;">Warning: Collecting large data will take a little bit of time depending on many factors(internet speed, craigslist server speed etc). <br>Please wait untill the success message appears</p>
+    </body>
+</html>
