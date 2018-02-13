@@ -1,6 +1,6 @@
-# Simple Web Based Craigslist Data Scrapper with Auto Email sending
+# Simple Web Based Craigslist Data Scrapper with Auto Email Sending
 
-This app/software will scrap data (name, url etc) from craigslist.org based on user input query (like: model, budget range etc), scrapping them with Scrapy from all the cities in USA. After scrapping, data will be automatically send to user defined email address.
+This app/software will scrap data (name, url etc) from craigslist.org based on user input query (like: model, budget range etc), scrapping them with Scrapy from all the cities in USA(or others). After scrapping, data will be automatically sent to user defined email address.
 
 Basic Django app is used to get user query data from the front end.
 
